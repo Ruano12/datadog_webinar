@@ -136,7 +136,7 @@ resource "aws_ecs_task_definition" "my_task" {
       environment : [
         {
           name : "DD_API_KEY",
-          value : "053707e30fce06d0813ad655533b7f74"
+          value : "datadog_api_key"
         },
         {
           name : "DD_SITE",
