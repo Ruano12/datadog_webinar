@@ -99,7 +99,7 @@ resource "aws_ecs_task_definition" "my_task" {
   container_definitions = jsonencode([
     {
       name  = "hello-world"
-      image = "851725589063.dkr.ecr.us-east-1.amazonaws.com/fargate-kotlin-app"  # troque pela sua imagem docker
+      image = "imageECR"  # troque pela sua imagem docker
       cpu   = 256
       memory = 512
       essential = true
