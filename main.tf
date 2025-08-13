@@ -12,8 +12,8 @@ terraform {
 
 # Configure the Datadog provider
 provider "datadog" {
-  api_key = "f048d2553269d1781e2dff371e73bb9e "
-  app_key = "12233333"
+  api_key = "apikey "
+  app_key = "appkey"
   api_url = "us5.datadoghq.com"
 }
 
